@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="emp1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <img src="review4.png" alt=""> <br> 
+        <span>Prabhash</span> <br> <br> <br> <br> <br> <br> <br> <br>
+
+            <a href="admin.html"><i class="fa-solid fa-house"></i></a> <br>  <br>
+            <a href=""><i class="fa-solid fa-clipboard-user"></a></i>
+            <a href="index.html" id="logout"><i class="fa-solid fa-right-from-bracket" ></i></a>
+    </div>
+
+
+    <div class="dash">
+        <div class="head">
+            <div class="welcome">
+                <span id="wel"><b>Welcome, Prabhash!</b></span> <br>
+                <span id="tag">Check Task Progress</span>
+            </div> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <div class="search">
+                <input type="search" name="" id="" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="task-assigned">
+            <div class="align">
+            <h2>Tasks Assigned To You</h2>
+            <span class="tasks"><span>Task-1 &ensp;<button id="done">Mark as Done</button></span><span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> Today</span></span> <hr>
+            <span class="tasks"><span>Task-2 &ensp;<button id="done">Mark as Done</button></span><span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> 21 September</span></span> <hr>
+            <span class="tasks"><span>Task-3 &ensp;<button id="done">Mark as Done</button> </span><span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> 20 September</span></span> <hr>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="team">
+                <h2>Team you are Working With</h2> 
+                <br> <br> <br>
+                <div class="img">
+                    <span><img src="review1.png" alt=""><br>Prateek (Admin)</span>
+                    <span><img src="review3.png" alt=""> <br>Pulkit </span> <br>
+                    <span><img src="review4.png" alt=""> <br>Prabhash</span>
+                </div>
+            </div>
+            <div class="message">
+                <h2>Send a Message to your Team</h2>
+                To: <select name="" id=""><option value="">Prateek (Admin)</option> <option value="">Pulkit</option></select> <br> <br>
+                Message: <br>
+                <br><textarea name="" id="" cols="30" rows="5" placeholder="Enter Message...."></textarea>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

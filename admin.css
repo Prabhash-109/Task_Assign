@@ -1,0 +1,256 @@
+*
+{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    gap: 1%;
+}
+.navbar
+{
+    width: 7%;
+    height: 100%;
+    background-color: black;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar i
+{
+    color: white;
+    font-size: 30px;
+}
+.navbar img
+{
+    width: 40%;
+}
+.navbar span
+{
+    font-size: 20px;
+}
+.navbar  #logout
+{
+    padding-top: 278%;
+}
+.dash
+{
+    width: 90%;
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.head .welcome
+{
+  
+    padding: 2%;
+    border-radius: 20px;
+}
+.head .welcome #wel
+{
+    font-size: 40px;
+}
+.head .welcome #tag
+{
+    font-size: 18px;
+}
+.head .search input[type="search"]
+{
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    padding: 6%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #f2f2f2;
+}
+.head .search input[type="search"]::placeholder
+{
+    color: black;
+}
+
+
+.task-assigned
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+}
+.task-assigned .align{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.task-assigned .tasks
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.task-assigned h2
+{
+    padding: 1%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.task-assigned #date
+{
+    font-weight: 100%;
+    text-shadow: 0px 0px 1px;
+    color: red;
+}
+.task-assigned i
+{
+    font-weight: 100%;
+    text-shadow: 0px 0px 2px;
+    color: red;
+}
+.task-assigned hr
+{
+    width: 93%;
+    margin-left: 4%;
+}
+.row
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    
+    padding: 2%;
+    padding: 2%;
+}
+
+.addtask
+{
+    background-color: #f2f2f2;
+    padding: 4%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.addtask h3
+{
+    margin: 4%;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+}
+.addtask input
+{
+    width: 90%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid black;
+}
+.addtask input::placeholder
+{
+    color: black;
+}
+
+.addtask select
+{
+    width: 94.7%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin: 1%;
+    font-size: 16px;
+    padding: 2%;
+    border: 2px solid black; 
+}
+
+.addtask input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: 1%;
+    margin-top: 4%;
+    padding: 2%;
+}
+.addtask input[type="submit"]:hover
+{
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 4px black;
+}
+
+
+.messages
+{
+    background-color: #f2f2f2;
+    padding: 4%;
+    height: max-content;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.messages img
+{
+    width: 10%;
+}
+
+.messages #dp
+{
+    display: flex;
+    align-items: center;
+}
+.messages h2
+{
+    text-align: center;
+    margin: 3%;
+    text-decoration: underline;
+}
+.messages .mess
+{
+    background-color: black;
+    color: white;
+    padding: 4%;
+    border-radius: 10px;
+    
+}
+
+
+.team
+{
+    background-color: #f2f2f2;
+    padding: 4%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.team .img
+{
+    display: flex;
+    text-align: center; 
+}
+
+.team img
+{
+    width:90%;
+}
+.team h2
+{
+    text-align: center;
+    margin: 3%;
+    text-decoration: underline;
+}

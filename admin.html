@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoist</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <img src="review1.png" alt=""> 
+        <span>Prateek</span> <br> <br> <br> <br> <br> <br> <br> <br>
+
+            <a href="admin.html"><i class="fa-solid fa-house"></i></a> <br>  <br>
+            <a href=""><i class="fa-solid fa-clipboard-user"></a></i>
+            <a href="index.html" id="logout"><i class="fa-solid fa-right-from-bracket" ></i></a>
+
+
+    </div>
+    <div class="dash"> 
+        <div class="head">
+            <div class="welcome">
+                <span id="wel"><b>Welcome, Prateek!</b></span> <br>
+                <span id="tag">Check Task Progress</span>
+            </div> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <div class="search">
+                <input type="search" name="" id="" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="task-assigned">
+            <div class="align" id="align">
+            <h2>Urgent Tasks</h2>
+            <!-- <span class="tasks">Task-1 (Prabhash)<span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> Today</span></span> <hr>
+            <span class="tasks">Task-2 <span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> 21 September</span></span> <hr>
+            <span class="tasks">Task-3 <span id="date"><i class="fa-solid fa-circle-dot" style="color: #ff0000;"></i> 20 September</span></span> <hr> -->
+        </div>
+        </div>
+
+
+        <div class="row">
+            <div class="addtask">
+                <h3>Add a Task</h3>
+                
+                <input type="text" name="" id="task-name" placeholder="Task Name"> <br>
+                
+                <input type="text" name="" id="task-desc" placeholder="Task Description"> <br>
+                
+                <input type="date" name="" id="task-date"> <br>
+                
+                <select name="" id="task-assign"><option value="select">Select To Assign</option><option value="emp1">Prabhash</option> <option value="emp2">Pulkit</option></select> <br>
+               <input id="assign-task-btn" type="submit" value="Assign Task">
+            </div>
+            <div class="messages">
+                <h2>New Messages</h2>
+                <div class="mess">
+                    <span id="dp"><img src="review4.png" alt="">&ensp;<h4> Pulkit</h4></span>
+                    <p>Task 2 was done today..</p>
+                </div>
+                <br>
+                <div class="mess">
+                    <span id="dp"><img src="review3.png" alt="">&ensp;<h4> Pulkit</h4></span>
+                    <p>Task 1 will take few more days.</p>
+                </div>
+                
+                
+            </div> 
+ 
+
+
+            <div class="team">
+                <h2>Team</h2> 
+                <br> <br> <br>
+                <div class="img">
+                    <span><img src="review1.png" alt=""><br>Prateek (Admin)</span>
+                    <span><img src="review3.png" alt=""> <br>Pulkit </span> <br>
+                    <span><img src="review4.png" alt=""> <br>Prabhash</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="login-signup2" id="loginsignup2">
+        <div class="align" id="colorchange">
+            
+            
+            <div class="login">
+                <form id="">
+                <h1>Login Admin</h1>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a><br>
+                or use Email Address <br>
+                
+                <i class="fa-solid fa-user"></i>
+                <input type="email" name="email" id="emailid" placeholder="Email ID">  <br>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="passwordid" placeholder="Password"> <br>
+                <span><span><input type="checkbox" name="" id="">Remember Me </span><a href="" id="forget">Forget Your Password?</a></span>
+                
+                <input type="button" value="Login" onclick="admin()">
+                <div id="invalid"></div>
+                <p onclick="move()" id="create">Employee?</p>
+                
+                </form>
+                
+            </div>
+
+
+            <div class="cover" id="coverid">
+                <div class="coveralign">
+                    <h1 id="head">Welcome !</h1>
+                    <p id="para">Enter your Personal Details to see the Tasks Progress of your team.</p>
+                    
+                </div>
+            </div>
+
+
+            
+            <div class="signup">
+                <h1>Login Employees</h1>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a> <br>
+                or Enter Your Details <br>
+               
+            
+                <i class="fa-solid fa-user"></i>
+                <input type="email" name="email" id="emailidemp" placeholder="Email ID">  <br>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="passwordidemp" placeholder="Password"> <br>
+                
+                <input type="button" value="Sign Up" onclick="emp()">
+                <div id="invalidemp"></div>
+                <p onclick="moveback()" id="already">Admin?</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
